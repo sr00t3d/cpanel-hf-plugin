@@ -1,0 +1,15 @@
+[
+  {
+    "id": "hforensic",
+    "name": "High Forensic",
+    "description": "High Forensic account file analyzer",
+    "type": "link",
+    "uri": "hforensic/forensic.php",
+    "target": "_self",
+    "group_id": "files",
+    "order": 90,
+    "icon": "hf-icon.png",
+    "featuremanager": true,
+    "feature": "hforensic"
+  }
+]
