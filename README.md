@@ -109,21 +109,25 @@ Use the package installer for production deployments.
 
 Run:
 
-**1. Get Release**
+**1. See Release**
 
-Get releases in https://github.com/sr00t3d/cpanel-hf/releases/
+Get releases in https://github.com/sr00t3d/cpanel-hf-plugin/releases/tag/production
 
-**2. Get Release**
+**2. Download to your server**
 
-Se tar.gz to your server
+```bash
+wget https://github.com/sr00t3d/cpanel-hf-plugin/releases/download/production/cpanel-hf-plugin.tar.gz
+```
 
 **3. Install**
-
-Run
 
 ```bash
 PKG="cpanel-hf-plugin.tar.gz" && tar -xOf "$PKG" scripts/one_shot_install.sh | bash -s -- --package "$PWD/$PKG" --theme jupiter
 ```
+
+**4. Enable**
+
+Acess `WHM > Home > Packages > Feature Manager > Choose a feature > Enable High Forensic`
 
 Optional flags:
 
